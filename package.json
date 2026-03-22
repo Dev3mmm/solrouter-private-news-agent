@@ -1,0 +1,20 @@
+{
+    "name": "solrouter-private-news-agent",
+    "version": "1.0.0",
+    "description": "Private crypto research agent using SolRouter encrypted AI. Analyzes tokens and generates research briefs without exposing your queries.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+          "start": "node index.js",
+          "research": "node index.js --mode research",
+          "compare": "node index.js --mode compare",
+          "wallet": "node index.js --mode wallet",
+          "agent": "node agent.js"
+    },
+    "dependencies": {
+          "@solrouter/sdk": "latest"
+    },
+    "keywords": ["solrouter", "encrypted-ai", "crypto-research", "solana", "defi", "privacy"],
+    "author": "Dev3mmm",
+    "license": "MIT"
+}
